@@ -47,13 +47,7 @@ Here are the modeling steps:
         * If the database needed to be accessed by 100+ people.
 
 ## Data and Code
-All the data for this project was loaded into S3 prior to commencing the project. The exception is the i94res.csv file which was loaded into Amazon EMR hdfs filesystem. 
-
-In addition to the data files, the project workspace includes:
-* **etl.py** - reads data from S3, processes that data using Spark, and writes processed data as a set of dimensional tables back to S3
-* **etl_functions.py and utility.py** - these modules contains the functions for creating fact and dimension tables, data visualizations and cleaning. 
-* **config.cfg** - contains configuration that allows the ETL pipeline to access AWS EMR cluster. 
-* **Jupyter Notebooks** - jupyter notebook that was used for building the ETL pipeline.
+Still working on the text
 
 ## Prerequisites
 * AWS EMR cluster
